@@ -63,7 +63,7 @@ class Sudoku:
     def solve(self) -> np.ndarray:
         '''
         this function solves the sudoku puzzle in self.grid
-        changes the solution and solvedGame attributes and returns them
+        changes the solution and solvedGame attributes and returns self.solution
         '''
         
         self.solvedGame = self.grid
